@@ -5,7 +5,7 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "marvis-gateway-lab"
 version = "0.1.0"
-description = "Windows adapter that routes Marvis local model traffic to an OpenAI-compatible API"
+description = "Windows gateway that connects Marvis to third-party OpenAI-compatible APIs"
 requires-python = ">=3.12"
 readme = "README.md"
 license = { file = "LICENSE" }
