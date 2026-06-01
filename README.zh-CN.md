@@ -1,22 +1,22 @@
-# Marvis 第三方模型适配器
+# Marvis 第三方 API 网关
 
 [English](README.md)
 
-让 Marvis 桌面版通过本地 OpenAI 兼容 adapter，把本地模型请求转发到第三方 OpenAI 兼容 API。
+让 Marvis 接入第三方 OpenAI 兼容 API，同时保留官方桌面端体验。支持云端、私有化或自建模型服务，通过本地网关灵活转发请求。
 
 ## 项目简介
 
-Marvis 可以用本地模型模式启动桌面 Agent。本项目提供 Windows 启动脚本和本地 adapter，让这条本地模型链路可以接入外部 OpenAI 兼容模型服务。
+本项目提供 Windows 启动脚本和本地 OpenAI 兼容网关，用于把 Marvis 的模型请求转发到外部兼容服务。适合想继续使用 Marvis 桌面 UI，同时自由选择第三方 API、私有部署或自建模型服务的用户。
 
 ```text
 Marvis UI
   -> MarvisAgent wrapper
-  -> official MarvisAgent in local mode
-  -> local adapter on 127.0.0.1:19080
+  -> Marvis Agent request path
+  -> local OpenAI-compatible gateway on 127.0.0.1:19080
   -> third-party OpenAI-compatible API
 ```
 
-适合想保留官方 Marvis UI，同时尝试把本地 Agent 模型后端换成其他兼容服务的用户。
+provider 可以是公共云 API、私有化部署，也可以是自建的 OpenAI 兼容服务。
 
 ## 免责声明
 
@@ -78,7 +78,7 @@ timeout_seconds = 120
 
 ## 使用启动器
 
-用途：用于在本地启动 Marvis，并把本地模型请求转发到第三方兼容模型服务，方便联调、测试和排障；请勿用于非法、未授权或超出服务条款的用途。
+用途：启动 Marvis，并把模型请求转发到第三方 OpenAI 兼容服务，方便联调、测试和排障；请勿用于非法、未授权或超出服务条款的用途。
 
 在仓库根目录双击：
 
