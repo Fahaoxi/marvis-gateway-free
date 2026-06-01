@@ -165,7 +165,7 @@ live smoke 可能会调用你配置的 provider。
 
 ### 启动器启动后无响应
 
-请尝试打开腾讯 Marvis 桌面端，然后完全退出，再重新运行启动器。
+请先关闭脚本，尝试打开腾讯 Marvis 桌面端，然后完全退出，再重新运行启动器。
 
 ### `Local OpenAI adapter did not become healthy on 127.0.0.1:19080`
 
