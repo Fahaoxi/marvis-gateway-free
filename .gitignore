@@ -1,0 +1,27 @@
+# Local configuration and secrets
+config/third-party-api.local.toml
+.env
+.env.*
+
+# Runtime artifacts
+captures/
+*.log
+*.pid.json
+*.bak
+
+# Python
+.venv/
+venv/
+__pycache__/
+.pytest_cache/
+*.pyc
+*.pyo
+*.egg-info/
+build/
+dist/
+
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*

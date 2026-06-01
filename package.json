@@ -1,0 +1,14 @@
+{
+  "name": "marvis-gateway-lab",
+  "version": "0.1.0",
+  "description": "Smoke-test helpers for the Marvis third-party model adapter.",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "canary": "node scripts/test-marvis-third-party-canary.js --port 6161",
+    "smoke": "node scripts/smoke-marvis-agent.js --port 6161 --mode simple"
+  },
+  "dependencies": {
+    "socket.io-client": "^4.8.3"
+  }
+}

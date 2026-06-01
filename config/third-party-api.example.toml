@@ -1,0 +1,16 @@
+[provider]
+# 你的第三方 OpenAI 兼容接口地址，通常需要带上 /v1。
+# 例子: "https://api.example.com/v1"
+base_url = "https://api.example.com/v1"
+
+# 你要调用的模型名称，必须是服务商实际支持的名称。
+# 例子: "gpt-5.5"、"qwen-plus"、"claude-sonnet-4"
+model = "gpt-5.5"
+
+# 这里填保存 API Key 的环境变量名，默认和 README 里的设置一致。
+# 如果你改了环境变量名，这里也要一起改。
+api_key_env = "MARVIS_THIRD_PARTY_API_KEY"
+
+# 请求超时时间，单位是秒。
+# 如果接口较慢，可以适当调大。
+timeout_seconds = 120
