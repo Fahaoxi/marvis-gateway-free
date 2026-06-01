@@ -163,6 +163,10 @@ Live smoke tests may call your configured provider.
 
 ## Common Errors
 
+### Launcher starts but does not respond
+
+Try opening the Tencent Marvis desktop app once, then fully exit it and run the launcher again.
+
 ### `Local OpenAI adapter did not become healthy on 127.0.0.1:19080`
 
 This means the launcher could not get a healthy response from `http://127.0.0.1:19080/health`. Check the adapter stderr first:
