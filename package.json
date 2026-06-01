@@ -1,7 +1,7 @@
 {
   "name": "marvis-gateway-lab",
   "version": "0.1.0",
-  "description": "Smoke-test helpers for the Marvis third-party model adapter.",
+  "description": "Smoke-test helpers for the Marvis third-party API gateway.",
   "license": "MIT",
   "private": true,
   "scripts": {
