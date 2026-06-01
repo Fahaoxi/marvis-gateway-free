@@ -2,11 +2,11 @@
 
 [English](README.md)
 
-让 Marvis 接入第三方 OpenAI 兼容 API，同时保留官方桌面端体验。支持云端、私有化或自建模型服务，通过本地网关灵活转发请求。
+让 [腾讯 Marvis](https://marvis.qq.com/) 接入第三方 OpenAI 兼容 API，同时保留官方桌面端体验。支持云端、私有化或自建模型服务，通过本地网关灵活转发请求。
 
 ## 项目简介
 
-本项目提供 Windows 启动脚本和本地 OpenAI 兼容网关，用于把 Marvis 的模型请求转发到外部兼容服务。适合想继续使用 Marvis 桌面 UI，同时自由选择第三方 API、私有部署或自建模型服务的用户。
+本项目提供 Windows 启动脚本和本地 OpenAI 兼容网关，用于把腾讯 Marvis 的模型请求转发到外部兼容服务。适合想继续使用 Marvis 桌面 UI，同时自由选择第三方 API、私有部署或自建模型服务的用户。
 
 ```text
 Marvis UI
@@ -28,7 +28,7 @@ provider 可以是公共云 API、私有化部署，也可以是自建的 OpenAI
 - PowerShell 5+ 或 PowerShell 7+
 - Python 3.12+
 - Node.js 18+
-- Marvis 桌面版
+- 腾讯 Marvis 桌面版
 - 一个 OpenAI 兼容 API 端点
 
 ## 安装
