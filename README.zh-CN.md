@@ -163,6 +163,10 @@ live smoke 可能会调用你配置的 provider。
 
 ## 常见报错
 
+### 启动器启动后无响应
+
+请尝试打开腾讯 Marvis 桌面端，然后完全退出，再重新运行启动器。
+
 ### `Local OpenAI adapter did not become healthy on 127.0.0.1:19080`
 
 这表示启动脚本等不到 `http://127.0.0.1:19080/health` 返回健康状态。先看 adapter stderr：
