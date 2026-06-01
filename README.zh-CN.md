@@ -100,7 +100,7 @@ Marvis本地外壳启动器.bat
 - `1. 启动`：启动 adapter，安装或更新 Agent wrapper，并启动 Marvis。
 - `2. 查看状态`：查看 adapter、wrapper 和 Agent 状态。
 - `3. 停止`：停止由启动器创建的进程。
-- `4. 还原官方 Agent`：恢复官方 `MarvisAgent.exe`。
+- `4. 还原官方 Agent`：恢复官方 `MarvisAgent.exe`。（需管理员权限）
 - `5. 退出`：关闭启动器。
 
 注意：启动和还原前都不要让 Marvis 处于运行状态；还原前务必先停止启动器创建的进程。
