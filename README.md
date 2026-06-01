@@ -165,7 +165,7 @@ Live smoke tests may call your configured provider.
 
 ### Launcher starts but does not respond
 
-Try opening the Tencent Marvis desktop app once, then fully exit it and run the launcher again.
+Close the launcher script, open the Tencent Marvis desktop app once, fully exit it, then run the launcher again.
 
 ### `Local OpenAI adapter did not become healthy on 127.0.0.1:19080`
 
