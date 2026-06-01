@@ -2,11 +2,11 @@
 
 [简体中文](README.zh-CN.md)
 
-Connect Marvis to third-party OpenAI-compatible APIs while keeping the official desktop UI. Use cloud, private, or self-hosted model providers through a local gateway.
+Connect [Tencent Marvis](https://marvis.qq.com/) to third-party OpenAI-compatible APIs while keeping the official desktop UI. Use cloud, private, or self-hosted model providers through a local gateway.
 
 ## Overview
 
-This project provides a Windows launcher and local OpenAI-compatible gateway for routing Marvis model requests to external providers. It is intended for users who want to keep the Marvis desktop experience while choosing their own compatible API provider.
+This project provides a Windows launcher and local OpenAI-compatible gateway for routing Tencent Marvis model requests to external providers. It is intended for users who want to keep the Marvis desktop experience while choosing their own compatible API provider.
 
 ```text
 Marvis UI
@@ -28,7 +28,7 @@ This is an unofficial community project and is not affiliated with, endorsed by,
 - PowerShell 5+ or PowerShell 7+
 - Python 3.12+
 - Node.js 18+
-- Marvis desktop app
+- Tencent Marvis desktop app
 - An OpenAI-compatible API endpoint
 
 ## Install
