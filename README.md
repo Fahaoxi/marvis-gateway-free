@@ -1,22 +1,22 @@
-# Marvis Third-Party Model Adapter
+# Marvis Third-Party API Gateway
 
 [简体中文](README.zh-CN.md)
 
-Run the Marvis desktop app through a local OpenAI-compatible adapter and forward local model requests to a third-party OpenAI-compatible API.
+Connect Marvis to third-party OpenAI-compatible APIs while keeping the official desktop UI. Use cloud, private, or self-hosted model providers through a local gateway.
 
 ## Overview
 
-Marvis can start its desktop Agent in local model mode. This project provides a Windows launcher and local adapter that let that local model path talk to an external OpenAI-compatible provider.
+This project provides a Windows launcher and local OpenAI-compatible gateway for routing Marvis model requests to external providers. It is intended for users who want to keep the Marvis desktop experience while choosing their own compatible API provider.
 
 ```text
 Marvis UI
   -> MarvisAgent wrapper
-  -> official MarvisAgent in local mode
-  -> local adapter on 127.0.0.1:19080
+  -> Marvis Agent request path
+  -> local OpenAI-compatible gateway on 127.0.0.1:19080
   -> third-party OpenAI-compatible API
 ```
 
-The project is intended for users who want to keep the official Marvis UI while experimenting with another model provider behind the local Agent path.
+The provider can be a public cloud API, a private deployment, or a self-hosted OpenAI-compatible service.
 
 ## Disclaimer
 
@@ -78,7 +78,7 @@ If Marvis is installed outside the default locations, set:
 
 ## Start From The Launcher
 
-Use: start Marvis locally and route local model requests to a third-party OpenAI-compatible service for testing, debugging, and validation; do not use it for anything illegal, unauthorized, or outside the provider's terms.
+Use: start Marvis and route model requests to a third-party OpenAI-compatible service for testing, debugging, and validation; do not use it for anything illegal, unauthorized, or outside the provider's terms.
 
 Double-click this file from the repository root:
 
