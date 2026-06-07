@@ -100,7 +100,7 @@ Menu options:
 - `1. 启动`: start the adapter, install or update the Agent wrapper, and launch Marvis.
 - `2. 查看状态`: show adapter, wrapper, and Agent status.
 - `3. 停止`: stop the processes started by the launcher.
-- `4. 还原官方 Agent`: restore the official `MarvisAgent.exe`.
+- `4. 还原官方 Agent`: restore the official `MarvisAgent.exe`. Administrator permission may be required.
 - `5. 退出`: close the launcher.
 
 Note: do not start or restore while Marvis is still running. Before restoring the official Agent, stop everything started by the launcher first.
@@ -131,7 +131,7 @@ Stop the wrapper flow and adapter:
 powershell -NoProfile -ExecutionPolicy Bypass -File .\scripts\stop-marvis-wrapper-shell.ps1 -StopAdapter -Force
 ```
 
-Restore the official Agent:
+Restore the official Agent. Run PowerShell as Administrator if Windows asks for elevated permission:
 
 ```powershell
 powershell -NoProfile -ExecutionPolicy Bypass -File .\scripts\restore-marvis-agent-wrapper.ps1
